@@ -31,7 +31,7 @@ serde_json = "1.0"
 interpolation = "0.2"
 rand = "0.8"
 
-svg = "0.10"
+svg = "0.18"
 
 pathfinder_canvas = "0.5"
 # These versions must stay synced with the dependencies of pathfinder_canvas
@@ -76,7 +76,7 @@ features = [
 # Dependencies used when developing `turtle` directly, but not when using it as
 # a library.
 [dev-dependencies]
-bitvec = "0.22"
+#bitvec = "0.22"
 chrono = "0.4"
 
 # Since the debug performance of turtle isn't all that great, we recommend that
